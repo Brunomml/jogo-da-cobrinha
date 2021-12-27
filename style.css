@@ -1,0 +1,17 @@
+/*
+cores:
+    DeepSkyBlue
+    MidnightBlue
+    RoyalBlue
+*/
+body{
+    text-align: center;
+    background: MidnightBlue;
+    color: DeepSkyBlue;
+    margin-top: 55px;
+}
+.canvas{
+    background: RoyalBlue;
+    margin-top: 8%;
+    border: solid 1px grey;
+}

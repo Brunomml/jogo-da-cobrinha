@@ -1,5 +1,5 @@
 function createDraw() {
-    const cnv = window.document.querySelector("canvas")
+    const cnv = window.document.querySelector(".canvas")
     const ctx = cnv.getContext("2d")
     let player;
 
