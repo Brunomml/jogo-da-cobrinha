@@ -8,8 +8,8 @@ function createCore() {
     function loop() {
         setInterval(() => {
             game.start()
-            draw.start(game.player)
-        }, 1000/60)
+            draw.start(game.player, game.frutas)
+        }, 1000/10)
     }
     
     function start() {
