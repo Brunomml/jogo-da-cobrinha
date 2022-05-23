@@ -1,3 +1,3 @@
 # jogo-da-cobrinha
 
-tá mau feito.
+recriei o jogo do 0, porque estava muito ruim
