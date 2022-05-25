@@ -18,26 +18,25 @@ function check(key) {
     return true
 }
 
+const fns = {
+    w(){
+        direction = 'UP'
+    },
+    a(){
+        direction = 'LEFT'
+    },
+    s(){
+        direction = 'DOWN'
+    },
+    d(){
+        direction = 'RIGHT'
+    }
+}
+
 addEventListener('keydown', (event)=>{
     const key = event.key
     if (check(key) == false) 
         return
-
-    const fns = {
-        w(){
-            direction = 'UP'
-        },
-        a(){
-            direction = 'LEFT'
-        },
-        s(){
-            direction = 'DOWN'
-        },
-        d(){
-            direction = 'RIGHT'
-        }
-    }
-
 
     const func = fns[key]
     if (func == undefined) return
